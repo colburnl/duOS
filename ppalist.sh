@@ -17,15 +17,15 @@ dpkg --add-architecture i386
 #          
 #          more to be added soon..."
 #echo
-echo "share we continue?"
-read $whoami
+echo "Welcome $whoami"
 echo "The following PPA's will be added."
 echo 
-echo "Y-PPA-Manager, Webdupd8team-PPA, Telegram, Kodi"
+echo "Y-PPA-Manager, Webdupd8team-PPA, Telegram, Kodi, Java, Tor-browser"
 sudo add-apt-repository ppa:webupd8team/y-ppa-manager
 sudo add-apt-repository ppa:atareao/telegram
 sudo add-apt-repository ppa:team-xbmc/ppa 
 sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo add-apt-repository ppa:webupd8team/tor-browser
-sudo apt update && sudo apt install y-ppa-manager telegram kodi tor-browser oomox imagemagick inkscape -y 
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt update && sudo apt install -y -q y-ppa-manager telegram kodi tor-browser oomox imagemagick inkscape 
 echo
