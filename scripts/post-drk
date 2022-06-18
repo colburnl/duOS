@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# -*- ENCODING: UTF-8 -*-
+DDEU=cat /usr/share/duconf/ppa-xtras.txt
+# just my personal config..
+## PPA & 3rd-Party Repos
+echo 'Current PPA List:
+      $DDEU'
+      
+echo 'only adding defaults from list. Java,Kodi,Uck,Webdup8team,Telegram...'
+      cmd=sudo add-apt-repository ppa:webupd8team/y-ppa-manager
+      
+# sudo apt install 
+
+
+

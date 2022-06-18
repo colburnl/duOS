@@ -1,0 +1,35 @@
+deb http://ppa.launchpad.net/docky-core/stable/ubuntu xenial main
+deb http://ppa.launchpad.net/elementary-os/stable/ubuntu xenial main
+deb http://ppa.launchpad.net/embrosyn/cinnamon/ubuntu xenial main
+deb http://ppa.launchpad.net/fontforge/fontforge/ubuntu xenial main
+deb http://ppa.launchpad.net/gnome3-team/gnome3/ubuntu xenial main
+### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+# You may comment out this entry, but any other modifications may be lost.
+deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+deb https://cli-assets.heroku.com/branches/stable/apt ./
+deb https://download.01.org/gfx/ubuntu/16.04/main xenial main
+deb http://ppa.launchpad.net/jonathonf/backports/ubuntu xenial main
+deb http://ppa.launchpad.net/jonathonf/vim/ubuntu xenial main
+deb http://ppa.launchpad.net/kubuntu-ppa/backports/ubuntu xenial main
+deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial main
+# 3.9
+deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-3.9 main
+# 4.0
+deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-4.0 main
+deb http://ppa.launchpad.net/neovim-ppa/stable/ubuntu xenial main
+deb http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/ xenial main
+deb http://ppa.launchpad.net/nitrux-team/nitrux-artwork/ubuntu zesty main
+deb https://deb.nodesource.com/node_6.x/ xenial main
+deb http://ppa.launchpad.net/noobslab/icons/ubuntu xenial main
+deb http://ppa.launchpad.net/noobslab/macbuntu/ubuntu xenial main
+deb http://ppa.launchpad.net/noobslab/themes/ubuntu xenial main
+deb http://ppa.launchpad.net/numix/ppa/ubuntu xenial main
+# deb http://ppa.launchpad.net/oibaf/graphics-drivers/ubuntu xenial main
+deb http://ppa.launchpad.net/papirus/arc-kde/ubuntu/ xenial main
+deb http://ppa.launchpad.net/papirus/papirus/ubuntu xenial main
+deb http://ppa.launchpad.net/snwh/pulp/ubuntu xenial main
+deb http://ppa.launchpad.net/team-xbmc/ppa/ubuntu xenial main
+deb http://ppa.launchpad.net/tista/adapta/ubuntu xenial main
+deb http://ppa.launchpad.net/ultradvorka/ppa/ubuntu xenial main
+deb http://ppa.launchpad.net/webupd8team/y-ppa-manager/ubuntu/ xenial main
+deb https://dl.winehq.org/wine-builds/ubuntu/ xenial main

@@ -1,0 +1,15 @@
+## Linux-Distro ISO index collection. ### Note theses isos are updated monthly
+
+# List
+Ubuntu
+CentOS-7
+PClinux-Trinity
+Devuan
+Fedora
+Misc
+NixOS
+Void
+OpenMandrival
+obs-server
+mabox-linux
+
