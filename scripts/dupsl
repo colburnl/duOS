@@ -1,0 +1,15 @@
+#!/usr/bin bash
+
+sudo dpkg --add-architecture i386
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+sudo mv winehq.key /usr/share/keyrings/winehq-archive.key
+wget -nc https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources
+sudo mv winehq-focal.sources /etc/apt/sources.list.d/
+sleep 2
+sudo apt install --install-recommends winehq-stable
+
+sudo apt install playonlinux
+
+
+sleep 2 && echo "complete"
+exit
