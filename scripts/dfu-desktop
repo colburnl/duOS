@@ -1,8 +1,0 @@
- #!/usr/bin/env bash
- exec gnome-session
- ssdm
- icewm
- openbox
- lightdm
- gdm3
- 
